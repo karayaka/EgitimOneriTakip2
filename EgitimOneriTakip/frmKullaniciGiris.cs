@@ -22,5 +22,10 @@ namespace EgitimOneriTakip
         {
             this.Close();
         }
+
+        private void btngiris_Click(object sender, EventArgs e)
+        {
+            cs.csBildirim.bildirim("Giriş Deneme", "Giriş işlemi deneme için yapıldı");
+        }
     }
 }

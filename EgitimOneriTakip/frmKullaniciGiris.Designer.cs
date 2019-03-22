@@ -75,6 +75,7 @@
             this.btngiris.Size = new System.Drawing.Size(186, 23);
             this.btngiris.TabIndex = 5;
             this.btngiris.Text = "Giriş";
+            this.btngiris.Click += new System.EventHandler(this.btngiris_Click);
             // 
             // btniptal
             // 
