@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="cs\csBaglanti.cs" />
     <Compile Include="cs\csBildirim.cs" />
+    <Compile Include="cs\csKontrol.cs" />
     <Compile Include="frmKullaniciGiris.cs">
       <SubType>Form</SubType>
     </Compile>
