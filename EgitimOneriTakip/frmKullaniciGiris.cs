@@ -17,5 +17,10 @@ namespace EgitimOneriTakip
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void btniptal_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
 }
