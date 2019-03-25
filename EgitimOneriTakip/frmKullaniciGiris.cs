@@ -20,7 +20,7 @@ namespace EgitimOneriTakip
 
 		private void frmKullaniciGiris_Load(object sender, EventArgs e)
 		{
-
+            //9666666
 		}
 
 		private void btnGiris_Click(object sender, EventArgs e)
