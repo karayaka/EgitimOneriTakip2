@@ -92,6 +92,7 @@
 			this.btnIptal.Size = new System.Drawing.Size(75, 23);
 			this.btnIptal.TabIndex = 5;
 			this.btnIptal.Text = "İptal";
+			this.btnIptal.Click += new System.EventHandler(this.btnIptal_Click);
 			// 
 			// btnGiris
 			// 
@@ -100,6 +101,7 @@
 			this.btnGiris.Size = new System.Drawing.Size(75, 23);
 			this.btnGiris.TabIndex = 6;
 			this.btnGiris.Text = "Giriş";
+			this.btnGiris.Click += new System.EventHandler(this.btnGiris_Click);
 			// 
 			// frmKullaniciGiris
 			// 
@@ -115,6 +117,7 @@
 			this.Controls.Add(this.labelControl1);
 			this.Name = "frmKullaniciGiris";
 			this.Text = "Kullanıcı Giriş";
+			this.Load += new System.EventHandler(this.frmKullaniciGiris_Load);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtKullaniciKodu.Properties)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtKullaniciSifre.Properties)).EndInit();

@@ -17,5 +17,27 @@ namespace EgitimOneriTakip
 		{
 			InitializeComponent();
 		}
+
+		private void frmKullaniciGiris_Load(object sender, EventArgs e)
+		{
+
+		}
+
+		private void btnGiris_Click(object sender, EventArgs e)
+		{
+			try
+			{
+
+			}
+			catch (Exception hata)
+			{
+				MessageBox.Show(hata.Message);
+			}
+		}
+
+		private void btnIptal_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
 	}
 }
