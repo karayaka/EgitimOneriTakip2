@@ -20,7 +20,8 @@ namespace EgitimOneriTakip
 
 		private void frmKullaniciGiris_Load(object sender, EventArgs e)
 		{
-            //9666666
+            if (txtKullaniciKodu.Text == "")
+                return;
 		}
 
 		private void btnGiris_Click(object sender, EventArgs e)
